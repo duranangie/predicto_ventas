@@ -9,4 +9,5 @@ Este proyecto implementa un modelo de **Machine Learning** para predecir las ven
 - Entrena un modelo de regresión (Random Forest) para predecir ventas (`Weekly_Sales`).
 - Ofrece un dashboard interactivo hecho en **Streamlit** para probar predicciones.
 
+
 ---
