@@ -1,6 +1,5 @@
 app.py
 .venv
 project
-model/predictor.py
 assets
 .python-version

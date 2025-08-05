@@ -18,6 +18,7 @@ def crear_variables(df):
     df['Month'] = df['Date'].dt.month
     df['Week'] = df['Date'].dt.isocalendar().week
 
+
     return df
 
 
@@ -26,7 +27,7 @@ def preparar_dataset(df):
     """
     Elimina columnas innecesarias y deja solo las relevantes.
     """
-    columnas_utiles = ['Store', 'Holiday_Flag', 'Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Year', 'Month','Weekly_Sales']
+    columnas_utiles = ['Date','Store', 'Holiday_Flag', 'Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Year', 'Month','Weekly_Sales']
     df = df[columnas_utiles]
     return df
 

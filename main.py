@@ -1,3 +1,7 @@
 from model.trainer import entrenar_modelo
+from model.predictor import predecir_ventas
 
-entrenar_modelo('data/Walmart_Sales.csv')
+predecir_ventas('data/Walmart_Sales.csv')
+
+
+#entrenar_modelo('data/Walmart_Sales.csv')
